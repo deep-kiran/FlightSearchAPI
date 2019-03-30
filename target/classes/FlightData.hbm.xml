@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.nagarro.model.FlightData" table="FLIGHTDATA">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="increment"/> 
+<!--             autoincrements primary key -->
+        </id>
+        <property name="flightNo" type="java.lang.String">
+            <column name="FLIGHTNO" />
+        </property>
+        <property name="depLoc" type="java.lang.String">
+            <column name="DEPLOC" />
+        </property>
+        <property name="arrLoc" type="java.lang.String">
+            <column name="ARRLOC" />
+        </property>
+        <property name="validTill" type="java.util.Date">
+            <column name="VALIDTILL" />
+        </property>
+        <property name="flightTime" type="java.lang.String">
+            <column name="FLIGHTTIME" />
+        </property>
+        <property name="flightDur" type="double">
+            <column name="FLIGHTDUR" />
+        </property>
+        <property name="fare" type="double">
+            <column name="FARE" />
+        </property>
+        <property name="seatavl" type="java.lang.String">
+            <column name="SEATAVL" />
+        </property>
+        <property name="flightClass" type="java.lang.String">
+            <column name="FLIGHTCLASS" />
+        </property>
+    </class>
+</hibernate-mapping>

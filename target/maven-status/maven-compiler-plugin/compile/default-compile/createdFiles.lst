@@ -1,0 +1,15 @@
+com\nagarro\util\DateUtils.class
+com\nagarro\controller\Controller.class
+com\nagarro\input\UserFlightData.class
+com\nagarro\model\FlightData.class
+com\nagarro\dao\UserDataDAO.class
+com\nagarro\model\UserData.class
+com\nagarro\service\Searchflights.class
+com\nagarro\dao\ReadFlightDataFromCSV.class
+com\nagarro\dao\ManageFlightData.class
+com\nagarro\constants\FlightConstants.class
+com\nagarro\dao\ManageUserData.class
+com\nagarro\dao\PopulateDatabase.class
+com\nagarro\service\AuthenticateUser.class
+com\nagarro\util\HibernateUtil.class
+com\nagarro\dao\FlightDataDAO.class
